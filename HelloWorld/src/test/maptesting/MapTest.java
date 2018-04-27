@@ -14,7 +14,7 @@ public class MapTest {
 	
 	@Test
 	public void testAddKeyValuePair() {
-		tester.add("");
+		tester.add("key1", 1);
 		assertEquals(1,tester.size(),"Size should be 1"); //check size of map
 	}
 	
